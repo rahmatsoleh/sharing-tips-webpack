@@ -9,7 +9,7 @@ div {
   border-radius: 5px;
   border: 1px solid black;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  width: fit-content;
+  width: 50vw;
   margin: 1em auto;
   padding: 1em;
 }
@@ -19,5 +19,5 @@ div h1 {
 }
 
 div img {
-  width: 100%;
+  width: 30%;
 }

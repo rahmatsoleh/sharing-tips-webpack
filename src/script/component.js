@@ -1,3 +1,5 @@
+import Cat from '../images/cat.jpg';
+
 class Component extends HTMLElement {
     connectedCallback(){
         this.render();
@@ -7,7 +9,7 @@ class Component extends HTMLElement {
         this.innerHTML = `
             <div>
                 <h1>My Images</h1>
-                <img src="../images/cat.jpg" alt="Images"/>
+                <img src="${Cat}" alt="Images"/>
             </div>
         `;
     }
