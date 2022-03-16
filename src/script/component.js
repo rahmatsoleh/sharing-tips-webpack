@@ -7,7 +7,7 @@ class Component extends HTMLElement {
         this.innerHTML = `
             <div>
                 <h1>My Images</h1>
-                <img src="../public/images/cat.jpg" alt="Images"/>
+                <img src="../images/cat.jpg" alt="Images"/>
             </div>
         `;
     }
